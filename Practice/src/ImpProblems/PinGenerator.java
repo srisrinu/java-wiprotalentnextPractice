@@ -6,7 +6,6 @@ public class PinGenerator {
 		int ip1 = Integer.parseInt(String.valueOf(String.valueOf(input1).charAt(2)));
 		int ip2 = Integer.parseInt(String.valueOf(String.valueOf(input1).charAt(2)));
 		int ip3 = Integer.parseInt(String.valueOf(String.valueOf(input1).charAt(2)));
-		
 		if (ip1 < ip2 && ip1 < ip3) {
 			pin = ip1;
 		} else if (ip2 < ip3 && ip2<ip1) {
