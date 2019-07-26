@@ -1,5 +1,4 @@
 package ImpProblems;
-
 import java.util.Scanner; 
 public class NthPrime {
 public static void main(String[] args) {
